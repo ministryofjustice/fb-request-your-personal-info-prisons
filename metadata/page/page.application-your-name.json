@@ -1,0 +1,14 @@
+{
+  "_id": "page.application-your-name",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.application-your-name--text.auto_name__4",
+      "_type": "text",
+      "label": "What is your name?",
+      "name": "auto_name__4"
+    }
+  ],
+  "sectionHeading": "Application",
+  "url": "application-your-name"
+}

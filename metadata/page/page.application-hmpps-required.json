@@ -1,0 +1,34 @@
+{
+  "_id": "page.application-hmpps-required",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.application-hmpps-required--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Do you require information from HM Prison and Probation Services?",
+      "items": [
+        {
+          "_id": "page.application-hmpps-required--checkboxes--checkbox.auto_name__1",
+          "_type": "checkbox",
+          "label": "Yes, I would like prison data",
+          "name": "auto_name__1"
+        },
+        {
+          "_id": "page.application-hmpps-required--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "Yes, I would like probation data",
+          "name": "auto_name__2"
+        },
+        {
+          "_id": "page.application-hmpps-required--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "No",
+          "name": "auto_name__3"
+        }
+      ],
+      "legend": "Request your personal information"
+    }
+  ],
+  "sectionHeading": "Application",
+  "url": "application-hmpps-required"
+}

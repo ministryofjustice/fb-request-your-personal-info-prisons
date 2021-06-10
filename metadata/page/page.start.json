@@ -19,6 +19,9 @@
   ],
   "heading": "Request your personal information",
   "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "steps": [
+    "page.application-your-name",
+    "page.application-your-date-of-birth"
+  ],
   "url": "/"
 }
