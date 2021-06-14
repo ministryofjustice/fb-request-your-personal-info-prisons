@@ -1,0 +1,8 @@
+{
+  "_id": "page.confirmation",
+  "_type": "page.confirmation",
+  "body": "We will send you a letter to acknowledge receipt of your request.",
+  "heading": "Application complete",
+  "lede": "Your request has been sent",
+  "url": "confirmation"
+}

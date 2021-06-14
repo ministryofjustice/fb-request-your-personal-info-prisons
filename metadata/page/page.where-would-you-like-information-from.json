@@ -1,0 +1,33 @@
+{
+  "_id": "page.where-would-you-like-information-from",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.where-would-you-like-information-from--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "label": "I would like to get information from prison services",
+          "name": "auto_name__6"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "I would like to get information from probation services",
+          "name": "auto_name__7"
+        },
+        {
+          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__8",
+          "_type": "checkbox",
+          "hint": "This may include HM Courts & Tribunals Services, Legal Aid Agency, Office of the Public Guardian, or another agency within the MOJ",
+          "label": "I would like information from elsewhere within the MOJ",
+          "name": "auto_name__8"
+        }
+      ],
+      "legend": "Where would you like to get information from?"
+    }
+  ],
+  "url": "where-would-you-like-information-from"
+}

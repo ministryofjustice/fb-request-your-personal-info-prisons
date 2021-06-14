@@ -17,11 +17,14 @@
       "html": "### Before you start \r\n\r\nYou can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg).\r\n\r\nYou cannot use this service if you’re in the UK illegally."
     }
   ],
-  "heading": "Request your personal information",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
+  "heading": "Request your personal information from HM Prison and Probation Services",
   "steps": [
+    "page.where-would-you-like-information-from",
     "page.application-your-name",
-    "page.application-your-date-of-birth"
+    "page.application-your-date-of-birth",
+    "page.what-prisons-information-would-you-like",
+    "page.check-your-answers",
+    "page.confirmation"
   ],
   "url": "/"
 }
