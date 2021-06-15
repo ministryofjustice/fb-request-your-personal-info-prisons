@@ -1,0 +1,43 @@
+{
+  "_id": "page._application-about-court-case",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page._application-about-court-case--radios.auto_name__22",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Is this information for a court case or order? ",
+      "name": "auto_name__22"
+    },
+    {
+      "_id": "page._application-about-court-case--textarea.auto_name__23",
+      "_type": "textarea",
+      "label": "If yes, give a short explanation",
+      "name": "auto_name__23"
+    }
+  ],
+  "heading": "Is this information for a court case?",
+  "url": "/application-about-court-case"
+}

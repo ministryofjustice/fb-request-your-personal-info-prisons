@@ -20,8 +20,11 @@
   "heading": "Request your personal information from HM Prison and Probation Services",
   "steps": [
     "page.where-would-you-like-information-from",
-    "page.application-your-name",
+    "page._application-about-court-case",
+    "page._application-your-name",
     "page.application-your-date-of-birth",
+    "page._application-nomis-number",
+    "page._application-which-prison",
     "page.what-prisons-information-would-you-like",
     "page.check-your-answers",
     "page.confirmation"
