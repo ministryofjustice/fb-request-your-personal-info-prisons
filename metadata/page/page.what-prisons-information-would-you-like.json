@@ -48,14 +48,14 @@
               "required": false
             }
           },
-          "label": "Other",
+          "label": "Something else",
           "name": "auto_name__14"
         }
       ],
-      "legend": "What data would you like?"
+      "legend": "What information do you want from HM Prison Service?"
     }
   ],
-  "sectionHeading": "Getting your prison information",
+  "sectionHeading": "HM Prison Service",
   "show": {
     "identifier": "auto_name__6",
     "operator": "defined"

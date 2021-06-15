@@ -35,9 +35,13 @@
       "_id": "page._application-about-court-case--textarea.auto_name__23",
       "_type": "textarea",
       "label": "If yes, give a short explanation",
-      "name": "auto_name__23"
+      "name": "auto_name__23",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "Is this information for a court case?",
+  "sectionHeading": "Application",
   "url": "/application-about-court-case"
 }

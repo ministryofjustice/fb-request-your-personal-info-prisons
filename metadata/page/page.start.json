@@ -26,8 +26,10 @@
     "page._application-nomis-number",
     "page._application-which-prison",
     "page.what-prisons-information-would-you-like",
+    "page.prison-date-range",
     "page.check-your-answers",
-    "page.confirmation"
+    "page.confirmation",
+    "page._prisons-cctv"
   ],
   "url": "/"
 }
