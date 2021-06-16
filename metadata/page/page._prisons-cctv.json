@@ -4,49 +4,85 @@
   "components": [
     {
       "$component": true,
+      "$control": true,
       "$definition": true,
+      "$fieldset": true,
       "$grouping": true,
-      "_id": "page._prisons-cctv--section",
-      "_type": "section",
+      "_id": "page._prisons-cctv--fieldset",
+      "_type": "fieldset",
       "components": [
         {
           "$component": true,
           "$control": true,
           "$definition": true,
           "$field": true,
-          "_id": "page._prisons-cctv--section--text.auto_name__31",
+          "_id": "page._prisons-cctv--fieldset--text.auto_name__30",
           "_type": "text",
           "label": "Camera location or camera number",
-          "name": "auto_name__31"
+          "name": "auto_name__30",
+          "validation": {
+            "required": false
+          }
         },
         {
-          "_id": "page._prisons-cctv--section--date.auto_name__30",
+          "_id": "page._prisons-cctv--fieldset--date.auto_name__31",
           "_type": "date",
           "legend": "Date of recording",
-          "name": "auto_name__30"
-        }
-      ]
-    },
-    {
-      "_id": "page._prisons-cctv--fieldset",
-      "_type": "fieldset",
-      "components": [
-        {
-          "_id": "page._prisons-cctv--fieldset--text.auto_name__32",
-          "_type": "text",
-          "label": "HM Courts &  Tribunals Service",
-          "name": "auto_name__32"
+          "name": "auto_name__31",
+          "validation": {
+            "required": false
+          }
         },
         {
-          "_id": "page._prisons-cctv--fieldset--date.auto_name__33",
-          "_type": "date",
-          "name": "auto_name__33"
+          "_id": "page._prisons-cctv--fieldset--section",
+          "_type": "section",
+          "components": [
+            {
+              "_id": "page._prisons-cctv--fieldset--section--content",
+              "_type": "content",
+              "html": "Period of time"
+            },
+            {
+              "_id": "page._prisons-cctv--fieldset--section--text.auto_name__32",
+              "_type": "text",
+              "label": "From time of day (HH:MM) ",
+              "name": "auto_name__32",
+              "validation": {
+                "required": false
+              }
+            },
+            {
+              "_id": "page._prisons-cctv--fieldset--section--text.auto_name__33",
+              "_type": "text",
+              "label": "To time of day (HH:MM) ",
+              "name": "auto_name__33",
+              "validation": {
+                "required": false
+              }
+            }
+          ]
         }
-      ]
+      ],
+      "legend": "Recording details",
+      "namespace": "namespace_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add more footage"
     }
   ],
   "heading": "What CCTV footage do you want?",
   "lede": "We can respond faster if you can be specific about where and when the recording occurred",
   "sectionHeading": "HM Prison Service",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__12",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__6",
+        "operator": "defined"
+      }
+    ]
+  },
   "url": "/prisons-cctv"
 }

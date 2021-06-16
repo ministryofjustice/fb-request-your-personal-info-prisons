@@ -6,5 +6,6 @@
   "name": "Request your personal information",
   "pdfHeading": "Request your personal information - Prison-facing",
   "phase": "alpha",
-  "phaseText": "This is a new service - your feedback will help us to improve it."
+  "phaseText": "This is a new service - your feedback will help us to improve it.",
+  "sessionDuration": 60
 }

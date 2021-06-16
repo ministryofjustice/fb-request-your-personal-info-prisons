@@ -27,9 +27,9 @@
     "page._application-which-prison",
     "page.what-prisons-information-would-you-like",
     "page.prison-date-range",
+    "page._prisons-cctv",
     "page.check-your-answers",
-    "page.confirmation",
-    "page._prisons-cctv"
+    "page.confirmation"
   ],
   "url": "/"
 }

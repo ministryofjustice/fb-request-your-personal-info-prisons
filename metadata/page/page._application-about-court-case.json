@@ -36,6 +36,7 @@
       "_type": "textarea",
       "label": "If yes, give a short explanation",
       "name": "auto_name__23",
+      "show": true,
       "validation": {
         "required": false
       }
