@@ -25,6 +25,10 @@
           }
         },
         {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$fields": true,
           "_id": "page._prisons-cctv--fieldset--date.auto_name__31",
           "_type": "date",
           "legend": "Date of recording",
@@ -34,33 +38,24 @@
           }
         },
         {
-          "_id": "page._prisons-cctv--fieldset--section",
-          "_type": "section",
-          "components": [
-            {
-              "_id": "page._prisons-cctv--fieldset--section--content",
-              "_type": "content",
-              "html": "Period of time"
-            },
-            {
-              "_id": "page._prisons-cctv--fieldset--section--text.auto_name__32",
-              "_type": "text",
-              "label": "From time of day (HH:MM) ",
-              "name": "auto_name__32",
-              "validation": {
-                "required": false
-              }
-            },
-            {
-              "_id": "page._prisons-cctv--fieldset--section--text.auto_name__33",
-              "_type": "text",
-              "label": "To time of day (HH:MM) ",
-              "name": "auto_name__33",
-              "validation": {
-                "required": false
-              }
-            }
-          ]
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page._prisons-cctv--fieldset--text.auto_name__17",
+          "_type": "text",
+          "label": "From time of day (HH:MM) ",
+          "name": "auto_name__17"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page._prisons-cctv--fieldset--text.auto_name__18",
+          "_type": "text",
+          "label": "To time of day (HH:MM) ",
+          "name": "auto_name__18"
         }
       ],
       "legend": "Recording details",

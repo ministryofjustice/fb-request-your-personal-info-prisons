@@ -38,6 +38,7 @@
     "operator": "defined"
   },
   "steps": [
+    "page.courts-which-court-or-tribunal",
     "page.courts-when"
   ],
   "url": "courts-what-information"

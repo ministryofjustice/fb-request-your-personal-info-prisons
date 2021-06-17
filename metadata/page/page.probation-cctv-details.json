@@ -3,28 +3,58 @@
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.probation-cctv-details--text.auto_name__48",
-      "_type": "text",
-      "label": "Camera location or camera number",
-      "name": "auto_name__48"
-    },
-    {
-      "_id": "page.probation-cctv-details--date.auto_name__49",
-      "_type": "date",
-      "legend": "Date of recording",
-      "name": "auto_name__49"
-    },
-    {
-      "_id": "page.probation-cctv-details--text.auto_name__50",
-      "_type": "text",
-      "label": "Time from (HH:MM)",
-      "name": "auto_name__50"
-    },
-    {
-      "_id": "page.probation-cctv-details--text.auto_name__51",
-      "_type": "text",
-      "label": "Time to (HH:MM) ",
-      "name": "auto_name__51"
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.probation-cctv-details--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.probation-cctv-details--fieldset--text.auto_name__32",
+          "_type": "text",
+          "label": "Camera location or camera number",
+          "name": "auto_name__32"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$fields": true,
+          "_id": "page.probation-cctv-details--fieldset--date.auto_name__33",
+          "_type": "date",
+          "legend": "Date of recording",
+          "name": "auto_name__33"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.probation-cctv-details--fieldset--text.auto_name__36",
+          "_type": "text",
+          "label": "Time from (HH:MM)",
+          "name": "auto_name__36"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.probation-cctv-details--fieldset--text.auto_name__37",
+          "_type": "text",
+          "label": "Time to (HH:MM)",
+          "name": "auto_name__37"
+        }
+      ],
+      "legend": "Recording details",
+      "namespace": "namespace_auto__2",
+      "repeatable": true
     }
   ],
   "heading": "What CCTV footage do you want?",

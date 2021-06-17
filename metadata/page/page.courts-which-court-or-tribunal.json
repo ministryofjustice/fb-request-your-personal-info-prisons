@@ -1,0 +1,23 @@
+{
+  "_id": "page.courts-which-court-or-tribunal",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.courts-which-court-or-tribunal--text.auto_name__19",
+      "_type": "text",
+      "label": "Court or tribunal name (optional)",
+      "name": "auto_name__19",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.courts-which-court-or-tribunal--text.auto_name__24",
+      "_type": "text",
+      "label": "Trial or hearing number (optional)",
+      "name": "auto_name__24"
+    }
+  ],
+  "heading": "Which court or tribunal do you want information from?",
+  "url": "courts-which-court-or-tribunal"
+}
