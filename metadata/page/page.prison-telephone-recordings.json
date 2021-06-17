@@ -18,5 +18,17 @@
   "heading": "What telephone recordings do you want?",
   "lede": "We can respond faster if you can be specific about where and when the calls occurred",
   "sectionHeading": "HM Prison Service",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__6",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__13",
+        "operator": "defined"
+      }
+    ]
+  },
   "url": "prison-telephone-recordings"
 }

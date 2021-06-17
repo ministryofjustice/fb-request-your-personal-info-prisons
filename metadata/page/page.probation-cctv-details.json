@@ -1,0 +1,46 @@
+{
+  "_id": "page.probation-cctv-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.probation-cctv-details--text.auto_name__48",
+      "_type": "text",
+      "label": "Camera location or camera number",
+      "name": "auto_name__48"
+    },
+    {
+      "_id": "page.probation-cctv-details--date.auto_name__49",
+      "_type": "date",
+      "legend": "Date of recording",
+      "name": "auto_name__49"
+    },
+    {
+      "_id": "page.probation-cctv-details--text.auto_name__50",
+      "_type": "text",
+      "label": "Time from (HH:MM)",
+      "name": "auto_name__50"
+    },
+    {
+      "_id": "page.probation-cctv-details--text.auto_name__51",
+      "_type": "text",
+      "label": "Time to (HH:MM) ",
+      "name": "auto_name__51"
+    }
+  ],
+  "heading": "What CCTV footage do you want?",
+  "lede": "We can respond faster if you can be specific about where and when the recording occurred",
+  "sectionHeading": "National Probation Service",
+  "show": {
+    "all": [
+      {
+        "identifier": "auto_name__7",
+        "operator": "defined"
+      },
+      {
+        "identifier": "auto_name__41",
+        "operator": "defined"
+      }
+    ]
+  },
+  "url": "probation-cctv-details"
+}

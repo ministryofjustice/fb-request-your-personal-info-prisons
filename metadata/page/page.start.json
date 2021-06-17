@@ -21,7 +21,6 @@
   "steps": [
     "page.where-would-you-like-information-from",
     "page._application-about-court-case",
-    "page._application-your-name",
     "page.application-your-date-of-birth",
     "page._application-nomis-number",
     "page._application-which-prison",
@@ -29,12 +28,15 @@
     "page.prison-date-range",
     "page._prisons-cctv",
     "page.prison-telephone-recordings",
-    "page.check-your-answers",
-    "page.confirmation",
     "page.probation-name-of-probation-officer--2",
     "page.probation-reference-number--2",
     "page.probation-information-requested",
-    "page.probation-period"
+    "page.probation-period",
+    "page.probation-cctv-details",
+    "page.courts-what-information",
+    "page.courts-which-court",
+    "page.check-your-answers",
+    "page.confirmation"
   ],
   "url": "/"
 }

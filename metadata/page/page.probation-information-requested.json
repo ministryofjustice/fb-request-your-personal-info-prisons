@@ -21,7 +21,7 @@
           "$option": true,
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__41",
           "_type": "checkbox",
-          "label": "CCTV",
+          "label": "CCTV - Probation",
           "name": "auto_name__41"
         },
         {
@@ -57,5 +57,9 @@
     }
   ],
   "sectionHeading": "National Probation Service",
+  "show": {
+    "identifier": "auto_name__7",
+    "operator": "defined"
+  },
   "url": "probation-information-requested"
 }

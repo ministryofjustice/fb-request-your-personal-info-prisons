@@ -18,5 +18,9 @@
   "heading": "What period of time do you want to cover? (optional)",
   "lede": "We can respond faster if you know roughly when you want your information from",
   "sectionHeading": "National Probation Service",
+  "show": {
+    "identifier": "auto_name__7",
+    "operator": "defined"
+  },
   "url": "probation-period"
 }
