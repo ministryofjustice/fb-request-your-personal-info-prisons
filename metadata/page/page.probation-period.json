@@ -6,13 +6,19 @@
       "_id": "page.probation-period--date.auto_name__46",
       "_type": "date",
       "legend": "From",
-      "name": "auto_name__46"
+      "name": "auto_name__46",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page.probation-period--date.auto_name__47",
       "_type": "date",
       "legend": "To",
-      "name": "auto_name__47"
+      "name": "auto_name__47",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "What period of time do you want to cover? (optional)",
