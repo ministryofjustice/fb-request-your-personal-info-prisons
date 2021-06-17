@@ -28,8 +28,13 @@
     "page.what-prisons-information-would-you-like",
     "page.prison-date-range",
     "page._prisons-cctv",
+    "page.prison-telephone-recordings",
     "page.check-your-answers",
-    "page.confirmation"
+    "page.confirmation",
+    "page.probation-name-of-probation-officer--2",
+    "page.probation-reference-number--2",
+    "page.probation-information-requested",
+    "page.probation-period"
   ],
   "url": "/"
 }

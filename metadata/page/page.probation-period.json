@@ -1,0 +1,22 @@
+{
+  "_id": "page.probation-period",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.probation-period--date.auto_name__46",
+      "_type": "date",
+      "legend": "From",
+      "name": "auto_name__46"
+    },
+    {
+      "_id": "page.probation-period--date.auto_name__47",
+      "_type": "date",
+      "legend": "To",
+      "name": "auto_name__47"
+    }
+  ],
+  "heading": "What period of time do you want to cover? (optional)",
+  "lede": "We can respond faster if you know roughly when you want your information from",
+  "sectionHeading": "National Probation Service",
+  "url": "probation-period"
+}
