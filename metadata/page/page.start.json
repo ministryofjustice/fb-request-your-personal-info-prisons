@@ -21,6 +21,7 @@
   "steps": [
     "page.where-would-you-like-information-from",
     "page._application-about-court-case",
+    "page.application-your-name",
     "page.application-your-date-of-birth",
     "page._application-nomis-number",
     "page._application-which-prison",
