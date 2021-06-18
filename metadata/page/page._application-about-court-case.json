@@ -15,7 +15,7 @@
           "$option": true,
           "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1",
           "_type": "radio",
-          "label": "Yes",
+          "label": "No",
           "value": "auto_value__1"
         },
         {
@@ -24,22 +24,25 @@
           "$option": true,
           "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2",
           "_type": "radio",
-          "label": "No",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2--textarea.auto_name__34",
+            "_type": "textarea",
+            "label": "Please give a short explanation",
+            "name": "auto_name__34",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
           "value": "auto_value__2"
         }
       ],
       "legend": "Is this information for a court case or order? ",
       "name": "auto_name__22"
-    },
-    {
-      "_id": "page._application-about-court-case--textarea.auto_name__23",
-      "_type": "textarea",
-      "label": "If yes, give a short explanation",
-      "name": "auto_name__23",
-      "show": true,
-      "validation": {
-        "required": false
-      }
     }
   ],
   "heading": "Is this information for a court case?",
