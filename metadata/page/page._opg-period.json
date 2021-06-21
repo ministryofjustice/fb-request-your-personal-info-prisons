@@ -1,0 +1,21 @@
+{
+  "_id": "page._opg-period",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page._opg-period--date.auto_name__54",
+      "_type": "date",
+      "legend": "From",
+      "name": "auto_name__54"
+    },
+    {
+      "_id": "page._opg-period--date.auto_name__55",
+      "_type": "date",
+      "legend": "To",
+      "name": "auto_name__55"
+    }
+  ],
+  "heading": "What time period do you want to cover? (optional)",
+  "lede": "We can respond faster if we know roughly when you want your information from",
+  "url": "/opg-period"
+}

@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to:\r\n\r\n* request personal information about you that is held on the Ministry of Justice's records.\r\n* this is also  known as a 'subject access request'\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nProcessing these requests is expensive for the UK taxpayer. Because of this, and so we can give you the best service, you should be as clear as you can about the information you need.",
+  "body": "Use this service to:\r\n\r\n* request personal information about you that is held on the Ministry of Justice's records in HM Prison and Probation services.\r\n* this is also  known as a 'subject access request'\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
   "components": [
     {
       "$component": true,
@@ -9,16 +9,44 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "It can take up to 30 working days to respond to a subject access request"
+      "html": "We aim to respond to all requests within one calendar month"
     },
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "### Before you start \r\n\r\nYou can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg).\r\n\r\nYou cannot use this service if you’re in the UK illegally."
+      "html": "### Before you start \r\n\r\nSo we can answer your subject access request you must send us two things:\r\n\r\n1. A description of where your personal data may be held. \r\nPlease ensure that you provide details of where in the department your personal data may be held to help us to trace your records. For example, details of which court or prison you may have had dealings with, including any relevant case reference numbers and dates. Please be as specific as possible.\r\n\r\n2. Valid identification.\r\n\r\nAcceptable forms of ID include:\r\n\r\n* a photocopy of your passport or driving license\r\n* an electricity bill (a copy of the original bill)\r\n* a gas bill (a copy of the original bill)\r\n* a council tax bill (a copy of the original bill)\r\n* any other bill in your full name (a copy of the original bill)\r\n\r\nAny bill you send must be less than 6 months old.\r\n\r\nWe may charge you a fee to process your SAR if it is excessive."
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "You can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg).\r\n\r\nYou cannot use this service if you’re in the UK illegally."
     }
   ],
   "heading": "Request your personal information",
-  "lede": "This is your start page first paragraph. You can only have one paragraph here.",
-  "steps": [],
+  "steps": [
+    "page.where-would-you-like-information-from",
+    "page._application-about-court-case",
+    "page.application-your-name",
+    "page.application-your-date-of-birth",
+    "page._application-nomis-number",
+    "page._application-which-prison",
+    "page.what-prisons-information-would-you-like",
+    "page.prison-date-range",
+    "page._prisons-cctv",
+    "page.prison-telephone-recordings",
+    "page.probation-name-of-probation-officer--2",
+    "page.probation-reference-number--2",
+    "page.probation-information-requested",
+    "page.probation-period",
+    "page.probation-cctv-details",
+    "page.courts-what-information",
+    "page._opg-what-info",
+    "page._laa-what-info",
+    "page._other-what-info",
+    "page.check-your-answers",
+    "page.confirmation"
+  ],
   "url": "/"
 }

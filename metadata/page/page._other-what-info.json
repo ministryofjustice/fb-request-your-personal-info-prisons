@@ -1,0 +1,22 @@
+{
+  "_id": "page._other-what-info",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page._other-what-info--textarea.auto_name__62",
+      "_type": "textarea",
+      "label": "What information do you want from other areas of  the MoJ? ",
+      "name": "auto_name__62"
+    }
+  ],
+  "enableSteps": true,
+  "sectionHeading": "Other areas of the Ministry of Justice",
+  "show": {
+    "identifier": "auto_name__28",
+    "operator": "defined"
+  },
+  "steps": [
+    "page._other-period"
+  ],
+  "url": "/other-what-info"
+}

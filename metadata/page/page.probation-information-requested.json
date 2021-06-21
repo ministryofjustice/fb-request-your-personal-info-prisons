@@ -1,0 +1,65 @@
+{
+  "_id": "page.probation-information-requested",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.probation-information-requested--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__40",
+          "_type": "checkbox",
+          "label": "nDelius file",
+          "name": "auto_name__40"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__41",
+          "_type": "checkbox",
+          "label": "CCTV - Probation",
+          "name": "auto_name__41"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__42",
+          "_type": "checkbox",
+          "label": "Pre-sentence report",
+          "name": "auto_name__42"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__44",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__44--text.auto_name__45",
+            "_type": "text",
+            "label": "Please specify",
+            "name": "auto_name__45"
+          },
+          "label": "Something else",
+          "name": "auto_name__44"
+        }
+      ],
+      "legend": "What information do you want from probation services?"
+    }
+  ],
+  "sectionHeading": "National Probation Service",
+  "show": {
+    "identifier": "auto_name__7",
+    "operator": "defined"
+  },
+  "url": "probation-information-requested"
+}

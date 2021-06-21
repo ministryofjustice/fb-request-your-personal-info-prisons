@@ -1,0 +1,27 @@
+{
+  "_id": "page.courts-when",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.courts-when--date.auto_name__1",
+      "_type": "date",
+      "legend": "Date of trial or hearing",
+      "name": "auto_name__1",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.courts-when--text.auto_name__2",
+      "_type": "text",
+      "label": "Year of trial or hearing (if you don't know the exact date)",
+      "name": "auto_name__2",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "When did your trial take place? (optional)",
+  "lede": "We can respond faster if you can be specific about when the trial took place",
+  "url": "courts-when"
+}

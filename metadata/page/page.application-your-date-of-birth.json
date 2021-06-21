@@ -1,0 +1,15 @@
+{
+  "_id": "page.application-your-date-of-birth",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.application-your-date-of-birth--date.auto_name__5",
+      "_type": "date",
+      "hint": "For example, 12 11 1999",
+      "legend": "Your date of birth",
+      "name": "auto_name__5"
+    }
+  ],
+  "sectionHeading": "Application",
+  "url": "application-your-date-of-birth"
+}

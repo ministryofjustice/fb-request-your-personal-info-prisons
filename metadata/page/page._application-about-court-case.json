@@ -1,0 +1,51 @@
+{
+  "_id": "page._application-about-court-case",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page._application-about-court-case--radios.auto_name__22",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2--textarea.auto_name__34",
+            "_type": "textarea",
+            "label": "Please give a short explanation",
+            "name": "auto_name__34",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Yes",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Is this information for a court case or order? ",
+      "name": "auto_name__22"
+    }
+  ],
+  "heading": "Is this information for a court case?",
+  "sectionHeading": "Application",
+  "url": "/application-about-court-case"
+}

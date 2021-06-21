@@ -1,0 +1,39 @@
+{
+  "_id": "page.application-your-name",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.application-your-name--text.auto_name__43",
+      "_type": "text",
+      "label": "First name",
+      "name": "auto_name__43"
+    },
+    {
+      "_id": "page.application-your-name--text.auto_name__48",
+      "_type": "text",
+      "label": "Middle names (optional)",
+      "name": "auto_name__48",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "_id": "page.application-your-name--text.auto_name__49",
+      "_type": "text",
+      "label": "Last name",
+      "name": "auto_name__49"
+    },
+    {
+      "_id": "page.application-your-name--text.auto_name__50",
+      "_type": "text",
+      "label": "Any other names you might have been known by (optional) ",
+      "name": "auto_name__50",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "heading": "What is your name?",
+  "sectionHeading": "Application",
+  "url": "application-your-name"
+}
