@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to:\r\n\r\n* request personal information about you that is held on the Ministry of Justice's records in HM Prison and Probation services.\r\n* this is also  known as a 'subject access request'\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
+  "body": "Use this service to request personal information about you that is held on the Ministry of Justice's records in HM Prison and Probation services.\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
   "components": [
     {
       "$component": true,
@@ -14,7 +14,7 @@
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "### Before you start \r\n\r\nSo we can answer your subject access request you must send us two things:\r\n\r\n1. A description of where your personal data may be held. \r\nPlease ensure that you provide details of where in the department your personal data may be held to help us to trace your records. For example, details of which court or prison you may have had dealings with, including any relevant case reference numbers and dates. Please be as specific as possible.\r\n\r\n2. Valid identification.\r\n\r\nAcceptable forms of ID include:\r\n\r\n* a photocopy of your passport or driving license\r\n* an electricity bill (a copy of the original bill)\r\n* a gas bill (a copy of the original bill)\r\n* a council tax bill (a copy of the original bill)\r\n* any other bill in your full name (a copy of the original bill)\r\n\r\nAny bill you send must be less than 6 months old.\r\n\r\nWe may charge you a fee to process your SAR if it is excessive."
+      "html": "### Before you start \r\n\r\nSo we can answer your subject access request you must send us two things:\r\n\r\n1. A description of where your personal data may be held. \r\nPlease ensure that you provide details of where in the department your personal data may be held to help us to trace your records. For example, details of which court or prison you may have had dealings with, including any relevant case reference numbers and dates. Please be as specific as possible.\r\n\r\n2. Valid identifying information. For example, your name, prison number and date of birth.\r\n\r\nIf you are applying for probation data, it would be useful if you could provide the name of your probation officer, your probation supervising office or your probation reference number.\r\n\r\nWe may charge you a fee to process your SAR if it is excessive."
     }
   ],
   "extraComponents": [
