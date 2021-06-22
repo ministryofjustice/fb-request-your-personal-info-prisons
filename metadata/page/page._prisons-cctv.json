@@ -21,7 +21,7 @@
           "label": "Camera location or camera number",
           "name": "auto_name__30",
           "validation": {
-            "required": false
+            "required": true
           }
         },
         {
@@ -34,7 +34,7 @@
           "legend": "Date of recording",
           "name": "auto_name__31",
           "validation": {
-            "required": false
+            "required": true
           }
         },
         {
@@ -67,7 +67,7 @@
     }
   ],
   "heading": "What CCTV or other video footage do you want?",
-  "lede": "We can respond faster if you can be specific about where and when the recording occurred",
+  "lede": "",
   "sectionHeading": "HM Prison Service",
   "show": {
     "all": [

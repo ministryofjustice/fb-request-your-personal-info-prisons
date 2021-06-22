@@ -21,7 +21,7 @@
           "label": "Camera location or camera number",
           "name": "auto_name__51",
           "validation": {
-            "required": false
+            "required": true
           }
         },
         {
@@ -30,7 +30,7 @@
           "legend": "Date of recording",
           "name": "auto_name__52",
           "validation": {
-            "required": false
+            "required": true
           }
         },
         {

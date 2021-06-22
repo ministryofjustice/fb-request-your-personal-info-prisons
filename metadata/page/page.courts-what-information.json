@@ -18,14 +18,20 @@
           "conditionalComponent": {
             "_id": "page.courts-what-information--checkboxes--checkbox.auto_name__4--textarea.auto_name__35",
             "_type": "textarea",
-            "label": "Please specify",
-            "name": "auto_name__35"
+            "label": "Please specify what other information you would like",
+            "name": "auto_name__35",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Other courts info",
           "name": "auto_name__4"
         }
       ],
-      "legend": "What information do you want from the courts service?"
+      "legend": "What information do you want from the courts service?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "enableSteps": true,

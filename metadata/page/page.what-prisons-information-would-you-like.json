@@ -46,14 +46,20 @@
           "conditionalComponent": {
             "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__14--textarea.auto_name__23",
             "_type": "textarea",
-            "label": "Please specify",
-            "name": "auto_name__23"
+            "label": "Please specify what other information you would like",
+            "name": "auto_name__23",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Something else",
           "name": "auto_name__14"
         }
       ],
-      "legend": "What information do you want from HM Prison Service?"
+      "legend": "What information do you want from HM Prison Service?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "sectionHeading": "HM Prison Service",

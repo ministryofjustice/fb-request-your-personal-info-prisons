@@ -42,14 +42,20 @@
           "conditionalComponent": {
             "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__44--textarea.auto_name__15",
             "_type": "textarea",
-            "label": "Please specify",
-            "name": "auto_name__15"
+            "label": "Please specify what other information you would like",
+            "name": "auto_name__15",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Something else",
           "name": "auto_name__44"
         }
       ],
-      "legend": "What information do you want from probation services?"
+      "legend": "What information do you want from probation services?",
+      "validation": {
+        "required": true
+      }
     }
   ],
   "sectionHeading": "National Probation Service",

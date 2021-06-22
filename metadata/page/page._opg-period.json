@@ -6,13 +6,19 @@
       "_id": "page._opg-period--date.auto_name__54",
       "_type": "date",
       "legend": "From",
-      "name": "auto_name__54"
+      "name": "auto_name__54",
+      "validation": {
+        "required": false
+      }
     },
     {
       "_id": "page._opg-period--date.auto_name__55",
       "_type": "date",
       "legend": "To",
-      "name": "auto_name__55"
+      "name": "auto_name__55",
+      "validation": {
+        "required": false
+      }
     }
   ],
   "heading": "What time period do you want to cover? (optional)",
