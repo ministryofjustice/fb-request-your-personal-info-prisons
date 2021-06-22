@@ -15,7 +15,13 @@
           "$option": true,
           "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1",
           "_type": "radio",
-          "label": "No",
+          "conditionalComponent": {
+            "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1--textarea.auto_name__57",
+            "_type": "textarea",
+            "label": "Please give a short explanation",
+            "name": "auto_name__57"
+          },
+          "label": "Yes",
           "value": "auto_value__1"
         },
         {
@@ -24,20 +30,7 @@
           "$option": true,
           "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2",
           "_type": "radio",
-          "conditionalComponent": {
-            "$component": true,
-            "$control": true,
-            "$definition": true,
-            "$field": true,
-            "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__2--textarea.auto_name__34",
-            "_type": "textarea",
-            "label": "Please give a short explanation",
-            "name": "auto_name__34",
-            "validation": {
-              "required": false
-            }
-          },
-          "label": "Yes",
+          "label": "No",
           "value": "auto_value__2"
         }
       ],
