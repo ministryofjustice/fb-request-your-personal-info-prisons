@@ -5,8 +5,8 @@
     {
       "_id": "page._application-nomis-number--text.auto_name__20",
       "_type": "text",
-      "hint": "For example, A1234AA",
-      "label": "What is your NOMIS number?",
+      "hint": "You may know this as your NOMIS number. For example, A1234AA",
+      "label": "What is your prison number?",
       "name": "auto_name__20"
     }
   ],

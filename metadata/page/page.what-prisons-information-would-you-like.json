@@ -9,25 +9,29 @@
         {
           "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__9",
           "_type": "checkbox",
+          "hint": "These are your electronic case notes held on computer",
           "label": "NOMIS records",
           "name": "auto_name__9"
         },
         {
           "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__10",
           "_type": "checkbox",
+          "hint": "A summary of key security-linked events",
           "label": "Security data",
           "name": "auto_name__10"
         },
         {
           "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__11",
           "_type": "checkbox",
+          "hint": "This is your paper file and includes things such as: recat paperwork, escort risk assessment, IEP reports, Release on Temporary Licence paperwork, ACCT (Assessment, Care in Custody, Teamwork) logs, applications and complaints",
           "label": "Core record",
           "name": "auto_name__11"
         },
         {
           "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__12",
           "_type": "checkbox",
-          "label": "CCTV",
+          "hint": "Video recordings are held for up to 3 months",
+          "label": "CCTV or other video footage",
           "name": "auto_name__12"
         },
         {
@@ -40,13 +44,10 @@
           "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__14",
           "_type": "checkbox",
           "conditionalComponent": {
-            "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__14--text.auto_name__15",
-            "_type": "text",
-            "label": "Please specify if known:",
-            "name": "auto_name__15",
-            "validation": {
-              "required": false
-            }
+            "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__14--textarea.auto_name__23",
+            "_type": "textarea",
+            "label": "Please specify",
+            "name": "auto_name__23"
           },
           "label": "Something else",
           "name": "auto_name__14"
