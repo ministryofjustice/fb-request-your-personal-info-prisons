@@ -3,32 +3,10 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page._laa-what-info--checkboxes",
-      "_type": "checkboxes",
-      "items": [
-        {
-          "_id": "page._laa-what-info--checkboxes--checkbox.auto_name__56",
-          "_type": "checkbox",
-          "label": "Thing one",
-          "name": "auto_name__56"
-        },
-        {
-          "_id": "page._laa-what-info--checkboxes--checkbox.auto_name__57",
-          "_type": "checkbox",
-          "conditionalComponent": {
-            "_id": "page._laa-what-info--checkboxes--checkbox.auto_name__57--text.auto_name__58",
-            "_type": "text",
-            "label": "Please specify",
-            "name": "auto_name__58",
-            "validation": {
-              "required": false
-            }
-          },
-          "label": "Another thing",
-          "name": "auto_name__57"
-        }
-      ],
-      "legend": "What information do you want from the LAA?"
+      "_id": "page._laa-what-info--textarea.auto_name__45",
+      "_type": "textarea",
+      "label": "What information do you want from the LAA?",
+      "name": "auto_name__45"
     }
   ],
   "enableSteps": true,

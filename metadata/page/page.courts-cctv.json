@@ -1,0 +1,56 @@
+{
+  "_id": "page.courts-cctv",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.courts-cctv--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.courts-cctv--fieldset--text.auto_name__51",
+          "_type": "text",
+          "label": "Camera location or camera number",
+          "name": "auto_name__51",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "_id": "page.courts-cctv--fieldset--date.auto_name__52",
+          "_type": "date",
+          "legend": "Date of recording",
+          "name": "auto_name__52",
+          "validation": {
+            "required": false
+          }
+        },
+        {
+          "_id": "page.courts-cctv--fieldset--text.auto_name__53",
+          "_type": "text",
+          "label": "From time",
+          "name": "auto_name__53"
+        },
+        {
+          "_id": "page.courts-cctv--fieldset--text.auto_name__56",
+          "_type": "text",
+          "label": "To time",
+          "name": "auto_name__56"
+        }
+      ],
+      "legend": "Recording details",
+      "namespace": "namespace_auto__5",
+      "repeatable": true
+    }
+  ],
+  "heading": "CCTV or other video footage - Courts",
+  "url": "courts-cctv"
+}

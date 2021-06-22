@@ -21,7 +21,7 @@
           "label": "Court or tribunal name",
           "name": "auto_name__64",
           "validation": {
-            "required": false
+            "required": true
           }
         },
         {
@@ -31,7 +31,7 @@
           "$field": true,
           "_id": "page.courts-which-court-or-tribunal--fieldset--text.auto_name__65",
           "_type": "text",
-          "label": "Trial or hearing number",
+          "label": "Trial or hearing number (optional)",
           "name": "auto_name__65",
           "validation": {
             "required": false
@@ -44,6 +44,6 @@
       "repeatableAdd": "Add another"
     }
   ],
-  "heading": "Which court or tribunal do you want information from? (optional)",
+  "heading": "Which court or tribunal do you want information from?",
   "url": "courts-which-court-or-tribunal"
 }

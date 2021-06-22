@@ -9,20 +9,17 @@
         {
           "_id": "page.courts-what-information--checkboxes--checkbox.auto_name__3",
           "_type": "checkbox",
-          "label": "Thing one",
+          "label": "CCTV or other video footage - Courts",
           "name": "auto_name__3"
         },
         {
           "_id": "page.courts-what-information--checkboxes--checkbox.auto_name__4",
           "_type": "checkbox",
           "conditionalComponent": {
-            "_id": "page.courts-what-information--checkboxes--checkbox.auto_name__4--text.auto_name__16",
-            "_type": "text",
+            "_id": "page.courts-what-information--checkboxes--checkbox.auto_name__4--textarea.auto_name__35",
+            "_type": "textarea",
             "label": "Please specify",
-            "name": "auto_name__16",
-            "validation": {
-              "required": false
-            }
+            "name": "auto_name__35"
           },
           "label": "Other courts info",
           "name": "auto_name__4"
@@ -39,7 +36,8 @@
   },
   "steps": [
     "page.courts-which-court-or-tribunal",
-    "page.courts-when"
+    "page.courts-when",
+    "page.courts-cctv"
   ],
   "url": "courts-what-information"
 }

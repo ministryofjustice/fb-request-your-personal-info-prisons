@@ -57,7 +57,7 @@
           "$option": true,
           "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__28",
           "_type": "checkbox",
-          "label": "Other agency within the Ministry of Justice",
+          "label": "Elsewhere within the Ministry of Justice headquarters",
           "name": "auto_name__28"
         }
       ],

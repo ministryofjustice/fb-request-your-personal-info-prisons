@@ -3,32 +3,10 @@
   "_type": "page.singlequestion",
   "components": [
     {
-      "_id": "page._opg-what-info--checkboxes",
-      "_type": "checkboxes",
-      "items": [
-        {
-          "_id": "page._opg-what-info--checkboxes--checkbox.auto_name__51",
-          "_type": "checkbox",
-          "label": "Thing 1",
-          "name": "auto_name__51"
-        },
-        {
-          "_id": "page._opg-what-info--checkboxes--checkbox.auto_name__53",
-          "_type": "checkbox",
-          "conditionalComponent": {
-            "_id": "page._opg-what-info--checkboxes--checkbox.auto_name__53--text.auto_name__52",
-            "_type": "text",
-            "label": "Other - please specify",
-            "name": "auto_name__52",
-            "validation": {
-              "required": false
-            }
-          },
-          "label": "Other OPG",
-          "name": "auto_name__53"
-        }
-      ],
-      "legend": "What information do you want from the OPG?"
+      "_id": "page._opg-what-info--textarea.auto_name__16",
+      "_type": "textarea",
+      "label": "What information do you want from the Office of the Public Guardian?",
+      "name": "auto_name__16"
     }
   ],
   "enableSteps": true,
