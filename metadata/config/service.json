@@ -2,9 +2,9 @@
   "_id": "service",
   "_isa": "@ministryofjustice/fb-components=>service",
   "_type": "config.service",
-  "emailSubjectTeam": "Response from Request your personal information - Prison-facing",
+  "emailSubjectTeam": "Response from Request your personal information - Prisons",
   "name": "Request your personal information",
-  "pdfHeading": "Request your personal information - Prison-facing",
+  "pdfHeading": "Request your personal information - Prisons",
   "phase": "alpha",
   "phaseText": "This is a new service - your feedback will help us to improve it.",
   "sessionDuration": 60

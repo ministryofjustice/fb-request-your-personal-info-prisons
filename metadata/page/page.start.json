@@ -27,6 +27,7 @@
   "heading": "Request your personal information",
   "steps": [
     "page.where-would-you-like-information-from",
+    "page._exit",
     "page._application-about-court-case",
     "page.application-your-name",
     "page.application-your-date-of-birth",
