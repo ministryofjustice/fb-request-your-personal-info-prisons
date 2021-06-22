@@ -44,7 +44,8 @@
           "$field": true,
           "_id": "page._prisons-cctv--fieldset--text.auto_name__17",
           "_type": "text",
-          "label": "From time of day (HH:MM) ",
+          "hint": "For example 7:30AM",
+          "label": "From time of day",
           "name": "auto_name__17"
         },
         {
@@ -54,7 +55,8 @@
           "$field": true,
           "_id": "page._prisons-cctv--fieldset--text.auto_name__18",
           "_type": "text",
-          "label": "To time of day (HH:MM) ",
+          "hint": "For example 2:30PM",
+          "label": "To time of day",
           "name": "auto_name__18"
         }
       ],

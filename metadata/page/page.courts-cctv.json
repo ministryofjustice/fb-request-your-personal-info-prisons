@@ -36,12 +36,14 @@
         {
           "_id": "page.courts-cctv--fieldset--text.auto_name__53",
           "_type": "text",
+          "hint": "For example 7:30AM",
           "label": "From time",
           "name": "auto_name__53"
         },
         {
           "_id": "page.courts-cctv--fieldset--text.auto_name__56",
           "_type": "text",
+          "hint": "For example 2:30PM",
           "label": "To time",
           "name": "auto_name__56"
         }
