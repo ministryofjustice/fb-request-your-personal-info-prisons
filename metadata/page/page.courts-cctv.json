@@ -54,5 +54,9 @@
     }
   ],
   "heading": "CCTV or other video footage - Courts",
+  "show": {
+    "identifier": "auto_name__3",
+    "operator": "defined"
+  },
   "url": "courts-cctv"
 }
