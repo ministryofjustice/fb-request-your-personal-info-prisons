@@ -12,6 +12,7 @@
           "$option": true,
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__40",
           "_type": "checkbox",
+          "hint": "These are your electronic case notes held on computer",
           "label": "nDelius file",
           "name": "auto_name__40"
         },
@@ -21,6 +22,7 @@
           "$option": true,
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__41",
           "_type": "checkbox",
+          "hint": "Video recordings are held for up to 3 months",
           "label": "CCTV or other video footage - Probation",
           "name": "auto_name__41"
         },
@@ -30,6 +32,7 @@
           "$option": true,
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__42",
           "_type": "checkbox",
+          "hint": "Information about risk assessment of offenders",
           "label": "Multi Agency Public Protection Arrangements (MAPPA)",
           "name": "auto_name__42"
         },

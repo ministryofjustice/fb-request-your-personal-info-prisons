@@ -18,7 +18,8 @@
           "$field": true,
           "_id": "page._prisons-cctv--fieldset--text.auto_name__30",
           "_type": "text",
-          "label": "Camera location or camera number",
+          "hint": "If you are requesting bodycam footage, please give the name of the officer wearing the camera",
+          "label": "Camera location or description",
           "name": "auto_name__30",
           "validation": {
             "required": true

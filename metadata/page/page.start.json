@@ -1,7 +1,7 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "Use this service to request personal information about you that is held on the Ministry of Justice's records in HM Prison and Probation services.\r\n\r\nSubmitting a request takes around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
+  "body": "Use this form to request personal information about you held by Her Majesty's Prison and Probation Service.\r\n\r\nSubmitting a request should take around 5 minutes.\r\n\r\nSo we can give you the best service, you should be as clear as you can about the information you need.",
   "components": [
     {
       "$component": true,
@@ -9,19 +9,19 @@
       "$definition": true,
       "_id": "page.start--inset",
       "_type": "inset",
-      "html": "We aim to respond to all requests within one calendar month"
+      "html": "We aim to respond to all requests within a month."
     },
     {
       "_id": "page.start--content",
       "_type": "content",
-      "html": "### Before you start \r\n\r\nSo we can answer your subject access request you must send us two things:\r\n\r\n1. A description of where your personal data may be held. \r\nPlease ensure that you provide details of where in the department your personal data may be held to help us to trace your records. For example, details of which court or prison you may have had dealings with, including any relevant case reference numbers and dates. Please be as specific as possible.\r\n\r\n2. Valid identifying information. For example, your name, prison number and date of birth.\r\n\r\nIf you are applying for probation data, it would be useful if you could provide your probation supervising office.\r\n\r\nWe may charge you a fee to process your SAR if it is excessive.\r\n\r\n**If you would like this information to be sent to someone other than yourself, (i.e. your solicitor or a relative) please do not fill in this form. Instead, ask them to complete a application on your behalf.**"
+      "html": "### Before you start \r\n\r\nYou will need to provide some personal details to help us find your information in our systems including your name, prison number and date of birth.\r\n\r\nYou may also be asked for details relating to your request, such as the location of your probation office or the date of your court case. The more information you can provide, the quicker we will be able to respond to your request.\r\n\r\nIf you are applying for probation data, it would be useful if you could provide your probation supervising office.\r\n\r\nWe may charge you a fee to process your request if it is excessive. We will contact you to discuss before proceeding with the request.\r\n\r\n**We can only send your information to you. If you want your information to be sent to someone else, such as your solicitor or a relative, they will need to submit a request on your behalf.**"
     }
   ],
   "extraComponents": [
     {
       "_id": "page.start--content--2",
       "_type": "content",
-      "html": "You can also request via email.\r\n\r\nThe online service is also available in Welsh (Cymraeg).\r\n\r\nYou cannot use this service if you’re in the UK illegally."
+      "html": "You can also request via letter.\r\n\r\nThe online service is also available in Welsh (Cymraeg)."
     }
   ],
   "heading": "Request your personal information",
@@ -38,7 +38,6 @@
     "page._prisons-cctv",
     "page.prison-telephone-recordings",
     "page.probation-name-of-probation-officer--2",
-    "page.probation-reference-number--2",
     "page.probation-information-requested",
     "page.probation-period",
     "page.probation-cctv-details",

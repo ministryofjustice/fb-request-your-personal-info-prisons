@@ -1,8 +1,8 @@
 {
   "_id": "page.confirmation",
   "_type": "page.confirmation",
-  "body": "We will send you a letter to acknowledge receipt of your request.",
-  "heading": "Application complete",
-  "lede": "Your request has been sent",
+  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to your sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n",
+  "heading": "Request sent",
+  "lede": "",
   "url": "confirmation"
 }

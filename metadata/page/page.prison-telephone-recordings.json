@@ -18,7 +18,7 @@
           "$field": true,
           "_id": "page.prison-telephone-recordings--fieldset--text.auto_name__19",
           "_type": "text",
-          "label": "Number of the phone used",
+          "label": "Number of the phone called",
           "name": "auto_name__19",
           "repeatable": false,
           "validation": {
@@ -28,11 +28,17 @@
         {
           "_id": "page.prison-telephone-recordings--fieldset--date.auto_name__24",
           "_type": "date",
-          "legend": "Date of call",
+          "legend": "Date from",
           "name": "auto_name__24",
           "validation": {
             "required": false
           }
+        },
+        {
+          "_id": "page.prison-telephone-recordings--fieldset--date.auto_name__34",
+          "_type": "date",
+          "legend": "Date to",
+          "name": "auto_name__34"
         }
       ],
       "legend": "Call details",
@@ -41,7 +47,7 @@
     }
   ],
   "heading": "What telephone recordings do you want?",
-  "lede": "We can respond faster if you can be specific about where and when the calls occurred",
+  "lede": "We can respond faster if you can be specific about the phone number called and the date range when the calls occurred",
   "sectionHeading": "HM Prison Service",
   "show": {
     "all": [
