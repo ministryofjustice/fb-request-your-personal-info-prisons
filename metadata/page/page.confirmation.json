@@ -1,7 +1,14 @@
 {
   "_id": "page.confirmation",
   "_type": "page.confirmation",
-  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to your sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n",
+  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to you sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n\r\n",
+  "components": [
+    {
+      "_id": "page.confirmation--inset",
+      "_type": "inset",
+      "html": "Your request can be referenced using your name and prison number"
+    }
+  ],
   "heading": "Request sent",
   "lede": "",
   "url": "confirmation"
