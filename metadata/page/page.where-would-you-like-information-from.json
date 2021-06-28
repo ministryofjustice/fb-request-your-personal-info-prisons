@@ -28,36 +28,9 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__25",
-          "_type": "checkbox",
-          "label": "HM Courts and  Tribunals Service",
-          "name": "auto_name__25"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__26",
-          "_type": "checkbox",
-          "label": "Legal Aid Agency",
-          "name": "auto_name__26"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__27",
-          "_type": "checkbox",
-          "label": "Office of the Public Guardian",
-          "name": "auto_name__27"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__28",
           "_type": "checkbox",
-          "label": "Elsewhere within the Ministry of Justice headquarters",
+          "label": "Elsewhere within the Ministry of Justice",
           "name": "auto_name__28"
         }
       ],
