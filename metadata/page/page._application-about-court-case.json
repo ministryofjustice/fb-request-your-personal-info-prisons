@@ -18,6 +18,7 @@
           "conditionalComponent": {
             "_id": "page._application-about-court-case--radios.auto_name__22--radio.auto_value__1--textarea.auto_name__57",
             "_type": "textarea",
+            "hint": "For example, \"I have a parole hearing coming up\"",
             "label": "Please give a short explanation",
             "name": "auto_name__57"
           },
@@ -34,11 +35,11 @@
           "value": "auto_value__2"
         }
       ],
-      "legend": "Is this information to help support a court case or hearing? ",
+      "legend": "Is any of this information to help support an upcoming court case or hearing? ",
       "name": "auto_name__22"
     }
   ],
-  "heading": "Is this information for a court case?",
+  "heading": "Is this information for an upcoming court case?",
   "sectionHeading": "Application",
   "url": "/application-about-court-case"
 }
