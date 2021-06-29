@@ -1,7 +1,7 @@
 {
   "_id": "page.confirmation",
   "_type": "page.confirmation",
-  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to you sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n\r\n",
+  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to you sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n\r\nThis request will be submitted under Rule 39 which means only you will have access to any information we send you.",
   "components": [
     {
       "_id": "page.confirmation--inset",

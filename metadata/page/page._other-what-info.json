@@ -5,12 +5,12 @@
     {
       "_id": "page._other-what-info--textarea.auto_name__62",
       "_type": "textarea",
-      "label": "What information do you want from elsewhere in the Ministry of Justice Headquarters do you want? ",
+      "label": "What information do you want from elsewhere in the Ministry of Justice? ",
       "name": "auto_name__62"
     }
   ],
   "enableSteps": true,
-  "sectionHeading": "Elsewhere within the Ministry of Justice headquarters",
+  "sectionHeading": "Elsewhere within the Ministry of Justice",
   "show": {
     "identifier": "auto_name__28",
     "operator": "defined"

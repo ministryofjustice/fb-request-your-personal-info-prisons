@@ -26,7 +26,8 @@
     {
       "_id": "page.application-your-name--text.auto_name__50",
       "_type": "text",
-      "label": "Any other names you might have been known by (optional) ",
+      "hint": "",
+      "label": "Any nicknames or aliases that this information may be stored under (optional) ",
       "name": "auto_name__50",
       "validation": {
         "required": false
