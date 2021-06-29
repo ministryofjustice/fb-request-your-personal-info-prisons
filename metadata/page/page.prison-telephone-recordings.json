@@ -26,24 +26,23 @@
           }
         },
         {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$fields": true,
           "_id": "page.prison-telephone-recordings--fieldset--date.auto_name__24",
           "_type": "date",
-          "legend": "Date from",
+          "legend": "Date of call",
           "name": "auto_name__24",
           "validation": {
             "required": false
           }
-        },
-        {
-          "_id": "page.prison-telephone-recordings--fieldset--date.auto_name__34",
-          "_type": "date",
-          "legend": "Date to",
-          "name": "auto_name__34"
         }
       ],
       "legend": "Call details",
       "namespace": "namespace_auto__4",
-      "repeatable": true
+      "repeatable": true,
+      "repeatableAdd": "Add another call"
     }
   ],
   "heading": "What telephone recordings do you want?",
