@@ -1,9 +1,9 @@
 {
   "_id": "page._exit",
   "_type": "page.exit",
-  "body": "[Need call to action - another web form? Web page? Postal address to write to?]",
-  "heading": "Sorry, we cannot process your request using this form",
-  "lede": "You need to select at least one of HM Prison Service or National Probation Service. ",
+  "body": "To request your information from another area of the Ministry of Justice, you need to write to:\r\n\r\nDisclosure Team\r\nPost point 10.25\r\n102 Petty France\r\nLondon\r\nSW1H 9AJ\r\n\r\nor email: data.access@justice.gov.uk\r\n",
+  "heading": "You need to request that information another way",
+  "lede": "This form is for requesting information from Her Majesty's Prison and Probation Service.",
   "show": {
     "all": [
       {

@@ -12,7 +12,7 @@
           "$option": true,
           "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__6",
           "_type": "checkbox",
-          "label": "HM Prison Service",
+          "label": "Her Majesty's Prison Service",
           "name": "auto_name__6"
         },
         {
@@ -21,7 +21,7 @@
           "$option": true,
           "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__7",
           "_type": "checkbox",
-          "label": "National Probation Service",
+          "label": "Probation Service",
           "name": "auto_name__7"
         },
         {
@@ -30,7 +30,7 @@
           "$option": true,
           "_id": "page.where-would-you-like-information-from--checkboxes--checkbox.auto_name__28",
           "_type": "checkbox",
-          "label": "Elsewhere within the Ministry of Justice",
+          "label": "Another area of the Ministry of Justice",
           "name": "auto_name__28"
         }
       ],
