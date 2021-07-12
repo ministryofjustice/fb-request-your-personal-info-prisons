@@ -5,6 +5,7 @@
     {
       "_id": "page.probation-information-requested--checkboxes",
       "_type": "checkboxes",
+      "hint": "We can respond faster if you are able to tell us specifically what you want",
       "items": [
         {
           "$component": true,
@@ -20,20 +21,10 @@
           "$component": true,
           "$definition": true,
           "$option": true,
-          "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__41",
-          "_type": "checkbox",
-          "hint": "Video recordings are held for up to 3 months",
-          "label": "CCTV or other video footage - Probation",
-          "name": "auto_name__41"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__42",
           "_type": "checkbox",
           "hint": "Information about risk assessment of offenders",
-          "label": "Multi Agency Public Protection Arrangements (MAPPA)",
+          "label": "Multi Agency Public Protection Arrangements (MAPPA) executive summaries",
           "name": "auto_name__42"
         },
         {
@@ -43,6 +34,10 @@
           "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__44",
           "_type": "checkbox",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.probation-information-requested--checkboxes--checkbox.auto_name__44--textarea.auto_name__15",
             "_type": "textarea",
             "label": "Please specify what other information you would like",
@@ -55,7 +50,7 @@
           "name": "auto_name__44"
         }
       ],
-      "legend": "What information do you want from probation services?",
+      "legend": "Do you know the specific information you need from Probation Service?",
       "validation": {
         "required": true
       }
