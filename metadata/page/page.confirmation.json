@@ -1,7 +1,7 @@
 {
   "_id": "page.confirmation",
   "_type": "page.confirmation",
-  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. \r\n\r\nWe may write to you sooner if we need to:\r\n\r\n* Clarify some detail of your request\r\n* Collect a fee if your request is excessive\r\n\r\nThis request will be submitted under Rule 39 which means only you will have access to any information we send you.",
+  "body": "## What happens next? ##\r\n\r\nWe aim to respond to all requests within a month. Do not ask for an update before this point as it may delay your request.\r\n\r\nYour request is protected by the Data Protection Act which means your response is confidential and nobody else will see it.",
   "components": [
     {
       "_id": "page.confirmation--inset",
@@ -10,6 +10,6 @@
     }
   ],
   "heading": "Request sent",
-  "lede": "",
+  "lede": "You should receive an acknowledgement by post in the next 5 working days",
   "url": "confirmation"
 }

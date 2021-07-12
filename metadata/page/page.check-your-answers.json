@@ -1,5 +1,6 @@
 {
   "_id": "page.check-your-answers",
   "_type": "page.summary",
+  "sendHeading": "Now submit your request",
   "url": "check-your-answers"
 }
