@@ -1,6 +1,6 @@
 {
   "_id": "page._application-about-court-case",
-  "_type": "page.form",
+  "_type": "page.singlequestion",
   "components": [
     {
       "$component": true,
@@ -39,7 +39,7 @@
       "name": "auto_name__22"
     }
   ],
-  "heading": "Do you need information to help with an upcoming court case or hearing?",
+  "heading": "",
   "sectionHeading": "Application",
   "url": "/application-about-court-case"
 }
