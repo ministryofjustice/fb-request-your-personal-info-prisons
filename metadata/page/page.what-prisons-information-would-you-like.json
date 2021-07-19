@@ -66,16 +66,6 @@
                     "$component": true,
                     "$definition": true,
                     "$option": true,
-                    "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__11",
-                    "_type": "checkbox",
-                    "hint": "Including recat paperwork, escort risk assessment, IEP reports, Release on Temporary Licence paperwork, ACCT (Assessment, Care in Custody, Teamwork) logs, applications and complaints",
-                    "label": "Your prison file",
-                    "name": "auto_name__11"
-                  },
-                  {
-                    "$component": true,
-                    "$definition": true,
-                    "$option": true,
                     "_id": "page.what-prisons-information-would-you-like--checkboxes--checkbox.auto_name__14",
                     "_type": "checkbox",
                     "conditionalComponent": {
